@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(130, 252, 211);
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: right;
+}
+
+h1 {
+    color: rgb(185, 2, 2);
+    margin-bottom: 20px;
+    font-family: serif;
+    font-size: 3em;
+    border-bottom: 5px dashed black;
+}
+
+p {
+    color: rgb(1, 1, 158);
+    font-size: 1.5em;
+}
+
+p > strong {
+        color: rgb(185, 2, 2);
+}
+
+em {
+    color: rgb(180, 180, 2);
+}
